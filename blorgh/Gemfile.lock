@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    blorgh-mirv (0.0.1)
+    blorgh (0.0.1)
       rails (~> 5.0.0)
 
 GEM
@@ -112,7 +112,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  blorgh-mirv!
+  blorgh!
   sqlite3
 
 BUNDLED WITH
