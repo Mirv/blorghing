@@ -5,6 +5,7 @@ module Blorgh
     include Engine.routes.url_helpers
 
     setup do
+      @routes = Engine.routes
       @article = blorgh_articles(:one)
     end
 
