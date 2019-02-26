@@ -1,8 +1,8 @@
 <h3>New comment</h3>
-<%= form_with(model: [@article, @article.comments.build], local: true) do |form| %>
+<%= form_with(model: [@article, @article.comments.build], local: true) do |f| %>
   <p>
-    <%= form.label :text %><br>
-    <%= form.text_area :text %>
+    <%= f.label :text %><br>
+    <%= f.text_area :text %>
   </p>
-  <%= form.submit %>
+  <%= f.submit %>
 <% end %>
